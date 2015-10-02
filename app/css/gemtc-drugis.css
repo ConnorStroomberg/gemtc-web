@@ -9322,16 +9322,17 @@ html, body {
 /* line 234, ../drugis-css/_drugis.scss */
 #side-nav {
   position: fixed;
-  overflow-x: hidden;
-  background-color: #f4f4f4;
 }
-/* line 239, ../drugis-css/_drugis.scss */
+/* line 236, ../drugis-css/_drugis.scss */
 #side-nav ul {
   list-style-type: none;
-  margin-top: -20px;
-  padding: 2rem 1rem;
+  margin: 1rem 0rem;
 }
-/* line 246, ../drugis-css/_drugis.scss */
+/* line 241, ../drugis-css/_drugis.scss */
+#side-nav ul li {
+  padding: 0.5rem 0rem;
+}
+/* line 243, ../drugis-css/_drugis.scss */
 #side-nav ul li .heading,
 #side-nav ul li a.heading {
   color: #008CBA;
@@ -9340,19 +9341,19 @@ html, body {
   text-transform: uppercase;
   padding: 0;
 }
-/* line 256, ../drugis-css/_drugis.scss */
+/* line 254, ../drugis-css/_drugis.scss */
 #side-nav ul li:hover {
-  background-color: #dbdbdb;
+  text-decoration: underline;
 }
 
 /* -------- end sticky side nav ---------------- */
-/* line 265, ../drugis-css/_drugis.scss */
+/* line 263, ../drugis-css/_drugis.scss */
 #map_canvas {
   height: 280px;
 }
 
 /* standard */
-/* line 270, ../drugis-css/_drugis.scss */
+/* line 268, ../drugis-css/_drugis.scss */
 pre {
   margin-bottom: 1.25rem;
   border: 1px solid #b4b4b4;
@@ -9362,14 +9363,14 @@ pre {
   overflow-x: auto;
 }
 
-/* line 279, ../drugis-css/_drugis.scss */
+/* line 277, ../drugis-css/_drugis.scss */
 pre code {
   border: none;
   background: none;
   padding: 0px;
 }
 
-/* line 285, ../drugis-css/_drugis.scss */
+/* line 283, ../drugis-css/_drugis.scss */
 code {
   border: 1px solid #b4b4b4;
   background-color: #e7e7e7;
