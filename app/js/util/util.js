@@ -16,6 +16,7 @@ define(function (require) {
     .directive('pagedPngPlot', require('util/pagedPngPlotDirective'))
     .directive('appAlert', require('util/appAlertDirective'))
     .directive('export', require('util/exportDirective'))
+    .directive('drugisSideMenu', require('util/side-menu/sideMenuDirective'))
 
     // interseptors
     .factory('errorInterceptor', require('util/errorInterceptor'))
